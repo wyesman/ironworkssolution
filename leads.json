@@ -1,0 +1,68 @@
+[
+  {
+    "type": "quick-lead",
+    "data": {
+      "name": "Ray Croney",
+      "email": "ray.croney@gmail.com",
+      "phone": "3108939219"
+    },
+    "emailSent": true,
+    "id": "lead_1764698712454_p87vnzv4w",
+    "timestamp": "2025-12-02T18:05:12.454Z"
+  },
+  {
+    "type": "quick-lead",
+    "data": {
+      "name": "Test",
+      "email": "test@test.com",
+      "phone": "1234567890"
+    },
+    "emailSent": true,
+    "id": "lead_1764698600583_8qcmdurf4",
+    "timestamp": "2025-12-02T18:03:20.583Z"
+  },
+  {
+    "type": "quick-lead",
+    "data": {
+      "name": "Ray Croney",
+      "email": "ray@wyesman.com",
+      "phone": "3108939219"
+    },
+    "emailSent": true,
+    "id": "lead_1764698509663_f2r48k4nr",
+    "timestamp": "2025-12-02T18:01:49.663Z"
+  },
+  {
+    "type": "quick-lead",
+    "data": {
+      "name": "Ray Croney",
+      "email": "ray@wyesman.com",
+      "phone": "3108939219"
+    },
+    "emailSent": true,
+    "id": "lead_1764698497957_jpeujx47c",
+    "timestamp": "2025-12-02T18:01:37.957Z"
+  },
+  {
+    "type": "quick-lead",
+    "data": {
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": "1234567890"
+    },
+    "emailSent": true,
+    "id": "lead_1764698450003_7on0ajgr5",
+    "timestamp": "2025-12-02T18:00:50.003Z"
+  },
+  {
+    "type": "quick-lead",
+    "data": {
+      "name": "Mcheal",
+      "email": "morrisonmicheal606@gmail.com",
+      "phone": "5556661212"
+    },
+    "emailSent": true,
+    "id": "lead_1763647918757_sqzgz8fqw",
+    "timestamp": "2025-11-20T14:11:58.758Z"
+  }
+]
