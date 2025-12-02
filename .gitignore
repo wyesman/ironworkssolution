@@ -35,3 +35,6 @@ next-env.d.ts
 
 # Bun
 .bun
+
+# Lead storage (contains customer data)
+leads.json

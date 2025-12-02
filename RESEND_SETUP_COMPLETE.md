@@ -10,10 +10,12 @@ All 5 contact forms are now integrated with Resend API and sending emails to **r
 
 ### Environment Variables (`.env.local`)
 ```
-RESEND_API_KEY=re_NZCjiu92_9TRSnQdjywYZZSvASC9pMUim
-CONTACT_EMAIL=ray@tradblaze.net
-FROM_EMAIL=noreply@tradblaze.net
+RESEND_API_KEY=your_resend_api_key_here
+CONTACT_EMAIL=your_email@domain.com
+FROM_EMAIL=noreply@yourdomain.com
 ```
+
+> **Note:** Use your actual values from `.env.local` file. Never commit real API keys to Git!
 
 ### Email Settings
 - **From Address:** Iron Works Solution <noreply@tradblaze.net>
@@ -92,9 +94,11 @@ FROM_EMAIL=noreply@tradblaze.net
 When deploying to production:
 1. Make sure `.env.local` variables are set in Netlify
 2. Add these environment variables in Netlify dashboard:
-   - `RESEND_API_KEY`=`re_NZCjiu92_9TRSnQdjywYZZSvASC9pMUim`
-   - `CONTACT_EMAIL`=`ray@tradblaze.net`
-   - `FROM_EMAIL`=`noreply@tradblaze.net`
+   - `RESEND_API_KEY`=`your_resend_api_key`
+   - `CONTACT_EMAIL`=`your_email@domain.com`
+   - `FROM_EMAIL`=`noreply@yourdomain.com`
+
+> **Security:** Get the actual values from your local `.env.local` file. Set them in Netlify UI under Site configuration → Environment variables.
 
 ---
 
