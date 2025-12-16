@@ -29,6 +29,22 @@ function ReferralProgramContent() {
     }
   }, [searchParams]);
 
+  // Handle hash navigation on page load (for email links with #program-details)
+  useEffect(() => {
+    // Small delay to ensure page is fully rendered
+    const timer = setTimeout(() => {
+      if (window.location.hash) {
+        const id = window.location.hash.substring(1);
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   const openJoinForm = () => {
     setShowDialog(true);
   };
